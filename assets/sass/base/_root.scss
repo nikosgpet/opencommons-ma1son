@@ -2,14 +2,14 @@
  * Set up a decent box model on the root element
  */
 
-    //section {
-    //    border: 4px solid blue;
-    //}
-    //
-    //div {
-    //    border: 1px solid black;
-    //}
-
+/*    section {
+        border: 4px solid blue;
+    }
+    
+    div {
+       border: 1px solid black;
+    }
+*/
 
 
 html {
@@ -207,7 +207,13 @@ body {
 
 }
 
-.pr-image img {
+/*.pr-image img {
+	max-width: 100%;
+    height: auto;
+    width: auto;
+}*/
+
+.pr-widgetbox  img {
 	max-width: 100%;
     height: auto;
     width: auto;
