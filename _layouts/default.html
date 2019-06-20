@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+{% include head.html %}
 
-  {% include head.html %}
-
-  <body>
-
+<body>
     <main class="main" aria-label="Content">
-      {{ content }}
-    </main>
+        {% include header.html %}
+        <section class="pr-top container p-0 mt-5">
+            <div class="pr-description row p-0">
+                <div class="pr-topleft col-6">
+                    <div class="pr-title">MA1SON,</br>
+                        un programme d’animation et de</br> formation en résidences étudiantes.
+                    </div>
+                    <hr class="pr-yellow-line-long mt-4 mb-4">
+                    <div class="pr-subtitle">Sur ce site, nous avons rassemblé pour vous, porteur.euse.s de projet MA1SON, toutes les ressources utiles, outils, contenus et bonnes pratiques pour déployer votre projet MA1SON en autonomie.
+                    </div>
+                </div>
+                <div class="pr-image col-6 mr-0">
+                    <img src="assets/images/residents_01.png" alt="residents photo">
+                </div>
+            </div>
+        </section>
+        <section class="pr-middle container mt-5">
+            <div class="pr-middle-row row">
+                <div class="pr-title col-12 pl-0">Lancer ma résidence</div>
+                <hr class="pr-yellow-line-short mt-1 mb-3">
+            </div>
 
-  </body>
+
+            <div class="pr-options m-0 d-flex justify-content-between">
+
+                <div class="pr-option rounded d-flex mr-2 my-3">
+                    <div class="text-center align-self-center">Dévenir une résidence MA1SON</div>
+                </div>
+                <div class="pr-option pr-option-selected rounded d-flex mx-2 my-3">
+                    <div class="text-center align-self-center">Piloter et évaluer sa résidence</div>
+                </div>
+                <div class="pr-option rounded d-flex mx-2 my-3">
+                    <div class="text-center align-self-center">Communiquer sur le programme et les projets</div>
+                </div>
+                <div class="pr-option rounded d-flex ml-2 my-3">
+                    <div class="text-center align-self-center">Communiquer sur le programme et les projets</div>
+                </div>
+            </div>
+
+
+            <div class="pr-folders-container row rounded p-4">
+                <div class="col-12 p-0">
+                    <div class="pr-title mt-3 pl-0">Gérer son budget</div>
+                    <hr class="pr-black-line-short mt-1 mb-3 pl-0">
+                </div>
+                <div class="pr-folderboxes p-0 col-12 mx-auto row">
+                    <div class="pr-folderbox rounded">Droits et obligations d'un organisme de formation</div>
+                    <div class="pr-folderbox rounded">Tout savoir sur DataDock</div>
+                    <div class="pr-folderbox rounded">La réforme de la formation professionnelle</div>
+                    <div class="pr-folderbox rounded">Équipement et matériel - Liste indicative</div>
+                    <div class="pr-folderbox rounded">Matériel nécessaire pour une formation TSSR</div>
+                    <div class="pr-folderbox rounded">Matériel nécessaire pour une formation TSSR</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {% include js.html %}
+</body>
 
 </html>
