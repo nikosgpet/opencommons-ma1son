@@ -1,0 +1,72 @@
+lancer:
+  - title: Lancer une résidence MA1SON
+    subfolderitems:
+      - title: Thing 2
+        subfolderitems:
+          - page: Subthing 1
+            url: /subthing1.html
+          - page: Subthing 2
+            url: /subthing2.html
+  - title: Piloter et évaluer sa résidence
+    subfolderitems:
+      - title: Outils
+        subfolderitems:
+          - page: Fiche de poste porteur de projet MA1SON
+            url: https://docs.google.com/document/d/14yA8r4P3ql0z06hAVLbbLMiugfDdhQnCb5ZBap501H0/edit
+          - page: Tuilage porteur de projet MA1SON
+            url: https://docs.google.com/document/d/1PuRDbvqFIeaoOxfgetNM3T2qCmC399Z_UJVJ_UxWL-k/edit
+          - page: Répartition des missions de l'équipe
+            url: https://docs.google.com/spreadsheets/d/1t4s20TkewDTIMu-s1EqmkFl5G_fYNNgVWs-8nvZKpdY/edit
+      - title: Recherche
+        subfolderitems:
+          - page: Le programme Maison pour vivre, apprendre et agir ensemble
+            url: https://drive.google.com/file/d/1SzX3rAwvqWDhI9BoK83pQc6Q2cB72vTa/view
+          - page: Questionnaire recherche Typeform
+            url: https://www.google.com/url?q=https://article-1.typeform.com/to/ajHLgp&sa=D&ust=1561069019052000&usg=AFQjCNGK0w6qtmqWjvs7czej6CpdSk85cg
+            public: true
+          - page: Analyse de la satisfaction, du vécu et des sentiments de compétences des résidents du programme MA1SON
+            url: https://drive.google.com/file/d/1m67s3k_Gq3LyAF86jZX6A9ukG7mA6Wmp/view
+  - title: Communiquer sur le programme et les projets
+    subfolderitems:
+      - title: Créations et visuels
+        subfolderitems:
+          - page: Logos Article 1
+            url: https://drive.google.com/drive/folders/1I_aV_WW8XE1lkHto1CJ23Q7ii3NQde0v
+          - page: Logos MA1SON
+            url: https://drive.google.com/drive/folders/1eiO5-KHhMNxRMlCmWlAccTJIgeft6WwO
+          - page: Support de communication
+            url: https://drive.google.com/drive/folders/1pzxZduevzsYvfOeZewFXPmbvK5ErSQEe
+          - page: Flyers
+            url: https://drive.google.com/drive/folders/1ucRYPUE_I-p4JsX7X1pvOVyoVdUpcDup
+      - title: Réseaux sociaux et communautés
+        subfolderitems:
+          - page: Billet du jeudi
+            url: https://drive.google.com/drive/folders/1le1X9522NG1azmQvfIcAbAZgHezaROUL
+          - page: Facebook
+            url: https://drive.google.com/drive/folders/1BkMdUOYmQKWro7RaAWhyMZbtaTq8_1nU
+          - page: Instagram
+            url: https://drive.google.com/drive/folders/15b-fc5uk3vSdfgFsmaq_ExmA3FHBwx3j
+          - page: Planning communication
+            url: https://drive.google.com/drive/folders/12PL5L-4znwO-XGS0q2yCvLCASlnyJ3rA
+  - title: Recruter et former une promotion
+    subfolderitems:
+      - title: Selection des résidents et suivi
+        subfolderitems:
+          - page: Charte d'engagement résidents
+            url: https://docs.google.com/document/d/1FebsdNN7tXRy0xqU6ZKIHWe0KwdrngIxY6HI8VmDmJc/edit
+          - page: Comité de selection
+            url: https://drive.google.com/drive/folders/1MC8zBWd40Stxi0YQsi4o21mU3PYmdcBU
+          - page: Tableau de suivi
+            url: https://drive.google.com/drive/folders/1uYJspbdQGc13YZL0mV9ItVZBEvcOlbvr
+          - page: Flyers
+            url: https://drive.google.com/drive/folders/1ucRYPUE_I-p4JsX7X1pvOVyoVdUpcDup
+      - title: Ambass
+        subfolderitems:
+          - page: Formation Ambass
+            url: https://drive.google.com/drive/folders/1le1X9522NG1azmQvfIcAbAZgHezaROUL
+          - page: Missions
+            url: https://drive.google.com/drive/folders/1mm4uh130IM320UmQ3TpHid4sAF8lu7tw
+          - page: Outils de suivi
+            url: https://drive.google.com/drive/folders/1keLzxVjU6EXDbzNhStxrsfoA3qYkPjRe
+          - page: Pratiques de suivi
+            url: https://drive.google.com/drive/folders/1aKiX6J8PiSaWbeYCzEfzlmEs59jgP8wW
