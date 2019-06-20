@@ -2,14 +2,14 @@
  * Set up a decent box model on the root element
  */
 
-/*    section {
+ /*   section {
         border: 4px solid blue;
     }
     
     div {
        border: 1px solid black;
-    }
-*/
+    }*/
+
 
 
 html {
@@ -229,7 +229,6 @@ a.pr-option:hover {
 }
 
 
-
 a.pr-option.active  {
 		background-color: #FFDF00 !important; 
 	    border: 2px solid black !important;
@@ -242,7 +241,6 @@ a.pr-option.active  {
     height: auto;
     width: auto;
 
-    padding:0px;
 
 }
 
@@ -255,12 +253,10 @@ a.pr-option.active  {
 
 */
 
-.pr-widgetbox.first {
-	/*margin-right:10px;*/
-}
 
-.pr-widgetbox.last {
-	margin-left:10px;
+
+/*.pr-widgetboxes:last-child:hover {
+	margin-left:10px !important;
 }
 
 a.pr-widgetbox:hover {
@@ -273,7 +269,7 @@ a.pr-widgetbox.active {
 		background-color:red !important;
 
 }
-
+*/
 
 .pr-widgetbox-text {
     background-color: #FFDF00;
@@ -290,4 +286,21 @@ a.pr-widgetbox.active {
 	 border: 2px solid black !important;
 
 
+}
+
+
+.pr-widgetbox {
+	margin:-10px !important;
+}
+
+.pr-widgetbox:first-child {
+	margin-right:10px !important;
+}
+
+.pr-widgetbox:last-child {
+	margin-left:10px !important;
+}
+
+.pr-hide {
+	display:none;
 }
