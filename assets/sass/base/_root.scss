@@ -104,9 +104,38 @@ body {
 
 }
 
-.pr-option-selected {
-    border: 2px solid black;
+
+a.pr-option {
+	color:black;
 }
+
+a.pr-option:hover {
+	    border: 2px solid black;
+	    color:black;
+	    background-color: #FFDF00;
+
+
+}
+
+
+
+a.pr-option.active  {
+		background-color: #FFDF00 !important; 
+	    border: 2px solid black !important;
+	    color:black !important;
+
+}
+/*.nav-pills .nav-link {
+	    background-color: green;
+
+	    border: 1px solid black;
+	    color:black;
+}
+*/
+
+
+
+
 
 .pr-folders-container {
 
