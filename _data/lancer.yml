@@ -1,12 +1,23 @@
 lancer:
   - title: Lancer une résidence MA1SON
     subfolderitems:
-      - title: Thing 2
+      - title: Outils
         subfolderitems:
-          - page: Subthing 1
-            url: /subthing1.html
-          - page: Subthing 2
-            url: /subthing2.html
+          - page: Fiche de poste porteur de projet MA1SON
+            url: https://docs.google.com/document/d/14yA8r4P3ql0z06hAVLbbLMiugfDdhQnCb5ZBap501H0/edit
+          - page: Tuilage porteur de projet MA1SON
+            url: https://docs.google.com/document/d/1PuRDbvqFIeaoOxfgetNM3T2qCmC399Z_UJVJ_UxWL-k/edit
+          - page: Répartition des missions de l'équipe
+            url: https://docs.google.com/spreadsheets/d/1t4s20TkewDTIMu-s1EqmkFl5G_fYNNgVWs-8nvZKpdY/edit
+      - title: Recherche
+        subfolderitems:
+          - page: Le programme Maison pour vivre, apprendre et agir ensemble
+            url: https://drive.google.com/file/d/1SzX3rAwvqWDhI9BoK83pQc6Q2cB72vTa/view
+          - page: Questionnaire recherche Typeform
+            url: https://www.google.com/url?q=https://article-1.typeform.com/to/ajHLgp&sa=D&ust=1561069019052000&usg=AFQjCNGK0w6qtmqWjvs7czej6CpdSk85cg
+            public: true
+          - page: Analyse de la satisfaction, du vécu et des sentiments de compétences des résidents du programme MA1SON
+            url: https://drive.google.com/file/d/1m67s3k_Gq3LyAF86jZX6A9ukG7mA6Wmp/view
   - title: Piloter et évaluer sa résidence
     subfolderitems:
       - title: Outils

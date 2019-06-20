@@ -33,7 +33,7 @@
                  role="tablist" aria-orientation="vertical">
 
                 {% for item in site.data.lancer.lancer %}
-                <a class="pr-option rounded d-flex mx-2 my-3 nav-link d-block"
+                <a class="pr-option rounded d-flex my-3 nav-link d-block"
                    id="pr-line1-tab{{ forloop.index }}_link" aria-controls="pr-line1-tab{{ forloop.index }}" href="#pr-line1-tab{{ forloop.index }}"
                    role="tab" data-toggle="pill" aria-selected="true">
                     <div class="text-center align-self-center">{{ item.title }}</div>
@@ -46,13 +46,17 @@
                 <div class="tab-pane fade pr-folders-container row rounded p-4" role="tabpanel"
                      id="pr-line1-tab{{ forloop.index }}" aria-labelledby="pr-line1-tab{{ forloop.index }}">
                     {% for category in item.subfolderitems %}
-                    <div class="col-12 p-0">
+                    <div class="pr-tab-title col-12 p-0">
                         <div class="pr-title mt-3 pl-0">{{ category.title }}</div>
                         <hr class="pr-black-line-short mt-1 mb-3 pl-0">
                     </div>
                     <div class="pr-folderboxes p-0 col-12 mx-auto row">
                         {% for entry in category.subfolderitems %}
-                        <a href="{{ entry.url }}" target="_blank"><div class="pr-folderbox rounded">{{ entry.page }}</div></a>
+                        <a href="{{ entry.url }}" target="_blank">
+                            <div class="pr-folderbox rounded">
+                                <span>{{ entry.page }}</span>
+                            </div>
+                        </a>
                         {% endfor %}
                     </div>
                     {% endfor %}

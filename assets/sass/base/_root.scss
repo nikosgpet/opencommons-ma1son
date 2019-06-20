@@ -131,7 +131,39 @@ body {
     background-position: 190px 40px;
 }
 
+.pr-folderboxes a:first-child .pr-folderbox {
+    margin-left: 0;
+}
 
+.pr-folderboxes a {
+    color: #000000;
+    text-decoration: none;
+
+    .pr-folderbox span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        line-height: 21px;        /* fallback */
+        max-height: 2*21px;       /* fallback */
+    }
+
+    &:hover {
+        color: #000000;
+        text-decoration: none;
+
+        .pr-folderbox {
+            background-color: white;
+            box-shadow: 0 7px 17px 1px rgba(0,0,0,0.15);
+        }
+    }
+
+}
+
+.pr-tab-title:first-child .pr-title {
+    margin-top: 0 !important;
+}
 
 .pr-yellow-line-long {
     border: 3px solid #FFDF00;
@@ -291,3 +323,4 @@ a.pr-widgetbox.active {
 
 
 }
+
