@@ -20,7 +20,7 @@ lancer:
             url: https://drive.google.com/file/d/1m67s3k_Gq3LyAF86jZX6A9ukG7mA6Wmp/view
   - title: Piloter et évaluer sa résidence
     subfolderitems:
-      - title: Outils
+      - title: Pilotage
         subfolderitems:
           - page: Fiche de poste porteur de projet MA1SON
             url: https://docs.google.com/document/d/14yA8r4P3ql0z06hAVLbbLMiugfDdhQnCb5ZBap501H0/edit
